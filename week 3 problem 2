@@ -1,0 +1,16 @@
+package hello;
+import java.util.Scanner;
+class september10th {
+	public static void main(String[] args) {
+Scanner scnr=new Scanner(System.in);
+	System.out.println("Welcome");	
+	System.out.println("Enter three values");
+		int Num1= scnr.nextInt();
+		int Num2= scnr.nextInt();
+		int Num3= scnr.nextInt();
+	    int result= Num1+Num2+Num3;
+	System.out.println(result); 
+		
+
+	}
+}
