@@ -1,0 +1,16 @@
+package hello;
+import java.util.Scanner;
+class week3 {
+	public static void main(String[] args) {
+Scanner scnr=new Scanner(System.in);
+	System.out.println("Welcome");	
+	System.out.println("Enter five int values");
+		int Num1= scnr.nextInt();
+		int Num2= scnr.nextInt();
+		int Num3= scnr.nextInt();
+		int Num4= scnr.nextInt();
+		int Num5= scnr.nextInt();
+		int result= Num5-Num4-Num3-Num2-Num1;
+	System.out.println(result);
+	}
+}
